@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+* :rocket: currently working on software analysis
+* :star: learning computer science from very beginning
+* :musical_note: loooooooooooove music very much!!!!!!!!!!!!!!!!
