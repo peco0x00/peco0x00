@@ -18,3 +18,6 @@ Here are some ideas to get you started:
 * :rocket: currently working on software analysis
 * :star: learning computer science from the very beginning
 * :musical_note: loooooooooooove music very much!!!!!!!!!!!!!!!!
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
