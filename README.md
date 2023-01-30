@@ -22,7 +22,7 @@ Here are some ideas to get you started:
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-5-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue)
 
 **🐱 My GitHub Data** 
 
@@ -89,5 +89,5 @@ Go                       2 repos             █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/rbamb/rbamb/main/charts/bar_graph.png) 
 
 
- Last Updated on 29/01/2023 18:46:01 UTC
+ Last Updated on 30/01/2023 18:43:24 UTC
 <!--END_SECTION:waka-->
