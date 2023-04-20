@@ -1,21 +1,14 @@
-public class Test {
-  private void launchTargetActivity(final String className){
-    DexClassLoader dcl = 
-      new DexClassLoader(
-        getDir("dex", 0), 
-        dexDir.getAbsolutePath(), 
-        null, 
-        ClassLoader.getSystemClassLoader());
-    Class<?> loadClass = dcl.loadClass(className);
-    instance = loadClass.getConstructor().newInstance();
-    Method setProxy = loadClass.getMethod("setProxy", Activity.class);
-    setProxy.setAccessible(true);
-    setProxy.invoke(instance, this);
+public class MainActivity extends Activity {
+  static {
+    System.loadLibrary("demo");
+  }
+  public native String nativeGetString();
+  
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    String str = nativeGetString();
+    Log.d("String from native", str);
   }
 }
 
-public class Lib {
- public void setProxy(Activity mProxyActivity) {
-    System.out.println("setProxy called");
-  }
-}
