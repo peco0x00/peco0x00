@@ -1,6 +1,4 @@
-File desFile = new File(internalPath);
-FileUtils.copyFiles("dynamic.dex", desFile);
-DexClassLoader dcl = new DexClassLoader(getClassLoader());
-Class cls = dcl.loadClass("com.zun.dexdemo.IDynamic");
-IDynamic dynamic = cls.newInstance();
-dynamic.externalMethod();
+for (int i = 0; i < 10; i++) {
+  int val = i * 2;
+  System.out.println("val = " + val);
+}
