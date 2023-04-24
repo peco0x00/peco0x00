@@ -1,4 +1,19 @@
-for (int i = 0; i < 10; i++) {
-  int val = i * 2;
-  System.out.println("val = " + val);
+if (A == 0) {
+  if (B > C) {
+    A = B;
+  } else {
+    A = C;
+  }
 }
+
+void foo() {
+  bar();
+  baz(123);
+}
+
+void bar(int x) {
+  baz(555);
+}
+
+void baz() {}
+
