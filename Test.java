@@ -1,18 +1,9 @@
-public class MainActivity extends Activity {
-  static { System.loadLibrary("native-lib"); }
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    TelephonyManager tm = (TelephonyManager) getSystemService("phone");
-    String imei = nativeGetImei(tm);
-    Log.d("IMEI", "" + imei);
-  }
-  public void malicious() { /* malicious code */ }
+/* Java World */
+public class MyClass {
+  public boolean m(int i, boolean b) {}
 }
 
-public class DummyBinaryClass {
-  public String Java_MainActivity_nativeGetImei(TelephonyManager m) {
-    /* empty */
-  }
+/* C++ World */
+void foo(int i1, int i2, boolean b1) {
+  /* some c++ statements */
 }
-
