@@ -1,6 +1,6 @@
 /* Java World */
 public class MyClass {
-  public boolean m(int i, boolean b) {}
+  public boolean m(int i, String b) {}
 }
 
 /* C++ World */
