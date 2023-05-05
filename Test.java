@@ -1,6 +1,5 @@
 public class MainActivity extends Activity {
   static { System.loadLibrary("native-lib"); }
-  public native String nativeGetImei(TelephonyManager m);
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
