@@ -23,3 +23,4 @@ jobs:
           SHOW_OS: False
           SHOW_LANGUAGE_PER_REPO: False
           SHOW_SHORT_INFO: False
+          SHOW_TIMEZONE: False
